@@ -17,6 +17,27 @@ header{
     color: lightpink;
     height: 100px;
 }
+figure {
+    display: flex;
+    flex-direction: row;
+    background-image: url("./images/yarn.jpeg");
+    height: 275px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+figcaption{
+    font-size: 150%;
+    background-color: lightpink;
+    color:navy;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 h1 {
     font-size: 200%;
     padding-left: 40px;
