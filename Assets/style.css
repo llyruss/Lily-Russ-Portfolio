@@ -73,29 +73,19 @@ h2{
     min-width: 400px;
     text-align: end;
     align-items: flex-start;
-    
-}
-
-.sidebar { 
     border-right: solid 4px navy;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:4%px;
-    color: navy;
-    /* height: 100px; */
-    margin-bottom: 30px;
+    
 }
 
 #footer {
     display: flex;
+    flex-grow: 1;
+    align-items: center;
     justify-content: space-between;
     min-width: 300px;
     margin-right: 20px;
     width: 500px;
+    
 }
 
 #footer a{
