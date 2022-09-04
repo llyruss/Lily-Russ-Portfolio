@@ -9,7 +9,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 4%px;
+      padding: 4px;
       background-color: navy;
       color: lightpink;
       height: 100px;
@@ -28,6 +28,11 @@
       justify-content: space-between;
       min-width: 300px;
       margin-right: 20px;
+  }
+
+  li a:hover {
+    color: navy;
+    background-color: lightpink;
   }
 
   nav a {
@@ -121,6 +126,10 @@
       flex-grow: calc(1);
   }
 
+  .worksection1 a{
+    text-decoration: none;
+  }
+
   .mainwork {
       display: flex;
       flex-direction: row;
@@ -135,11 +144,11 @@
       margin-right: 30px;
   }
 
-  figure.mainwork, figure.work1, figure.work2, figure.work3, figure.work4 {
+  figure.mainwork, .work1, .work2, .work3, .work4 {
     background-color:lightpink;
     opacity: .6;
   }
-  figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hover, figure.work4:hover {
+  figure.mainwork:hover, .work1:hover, .work2:hover, .work3:hover, .work4:hover {
     opacity: 1;
   }
 
@@ -156,6 +165,15 @@
       border: solid 4px lightpink;
       margin-right: 30px;
 
+  }
+
+  .work1 a {
+    display: flex;
+    flex-direction: row;
+    flex-grow:1;
+    background-position: center;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 
   .worksection2, .worksection3 {
@@ -225,4 +243,26 @@
       text-decoration: none;
       padding-bottom: 2px;
       border-bottom: solid 2px navy;
+  }
+
+  /* Tablets */
+  @media screen and (max-width:900px) {
+    
+    
+  }
+
+  /* Smartphones */
+  @media screen and (max-width:600px) {
+    section {
+        flex-direction: column;
+    }
+    header {
+    flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    h1 {
+        width: 100%;
+        padding: 0px;
+    }
   }
