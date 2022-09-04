@@ -84,6 +84,9 @@
       border-right: solid 4px navy;
   }
 
+  .work0 {
+    margin-bottom: 0;
+  }
   .work {
       height: 710px;
   }
@@ -123,6 +126,7 @@
   .work1 {
       display: flex;
       flex-direction: row;
+      flex-grow:1;
       background-image: url(./images/bagel2.jpeg);
       height: 150px;
       background-size: cover;
@@ -144,6 +148,7 @@
   .work2 {
       display: flex;
       flex-direction: row;
+      flex-grow: 1;
       background-image: url(./images/bagel3.JPG);
       height: 150px;
       background-size: cover;
@@ -157,6 +162,7 @@
   .work3 {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
     background-image: url(./images/bagel4.jpeg);
     height: 150px;
     background-size: cover;
@@ -170,6 +176,7 @@
 .work4 {
     display: flex;
     flex-direction: row;
+    flex-grow:1;
     background-image: url(./images/bagel5.JPG);
     height: 150px;
     background-size: cover;
