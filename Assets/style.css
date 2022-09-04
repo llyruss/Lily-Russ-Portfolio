@@ -61,13 +61,26 @@
       padding-right: 10px;
   }
 
-  .aboutme {
-    color:navy
-  }
-
   section {
       display: flex;
       margin-bottom: 30px;
+  }
+
+  .aboutme {
+    display: flex;
+    color:navy;
+  }
+
+  .aboutme0 {
+    height: 150px;
+  }
+
+  p {
+    padding-left: 15px;
+  }
+
+  img {
+    height: 150px;
   }
 
   h2 {
