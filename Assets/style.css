@@ -91,7 +91,7 @@
       padding-bottom: 0px;
       font-size: 300%;
       color: navy;
-      min-width: 400px;
+      min-width: 300px;
       text-align: end;
       align-items: flex-start;
       border-right: solid 4px navy;
@@ -133,7 +133,14 @@
       align-items: flex-end;
       border: solid 4px lightpink;
       margin-right: 30px;
+  }
 
+  figure.mainwork, figure.work1, figure.work2, figure.work3, figure.work4 {
+    background-color:lightpink;
+    opacity: .6;
+  }
+  figure.mainwork:hover, figure.work1:hover, figure.work2:hover, figure.work3:hover, figure.work4:hover {
+    opacity: 1;
   }
 
   .work1 {
