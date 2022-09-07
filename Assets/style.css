@@ -265,4 +265,52 @@
         width: 100%;
         padding: 0px;
     }
+
+    .aboutme0, .contact {
+        height: fit-content;
+        border-right: 0px;
+        border-bottom: solid 4px navy ;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .aboutme {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .work {
+        height: fit-content;
+        border-right: 0px;
+        border-bottom: solid 4px navy ;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+       
+    }
+
+    .mainwork, .worksection2, .worksection3 {
+        margin-left: 10px;
+        max-height: 150px;
+        flex-wrap: wrap;
+
+    }
+
+    .work1 .work2, .work3, .work4, .mainwork{
+        margin-right: 10px;
+    }
+
+    .work1, .work2, .work3, .work4 {
+        min-width: 300px;
+        margin-bottom: 30px;
+    }
+
+    #footer {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
   }
