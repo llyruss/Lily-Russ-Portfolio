@@ -30,9 +30,14 @@
       margin-right: 20px;
   }
 
-  li a:hover {
+  nav li a:hover {
     color: navy;
     background-color: lightpink;
+  }
+
+  #footer li a:hover {
+    color: lightpink;
+    background-color: navy;
   }
 
   nav a {
@@ -246,13 +251,7 @@
   }
 
   /* Tablets */
-  @media screen and (max-width:900px) {
-    
-    
-  }
-
-  /* Smartphones */
-  @media screen and (max-width:600px) {
+  @media screen and (max-width:952px) {
     section {
         flex-direction: column;
     }
@@ -270,26 +269,37 @@
         height: fit-content;
         border-right: 0px;
         border-bottom: solid 4px navy ;
-        text-align: center;
+        text-align: start;
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 20px;
     }
-
-    .aboutme {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
     .work {
         height: fit-content;
         border-right: 0px;
         border-bottom: solid 4px navy ;
-        text-align: center;
+        text-align: start;
         margin-right: 10px;
         margin-left: 10px;
         margin-bottom: 20px;
-       
+  }
+
+  .mainwork, .aboutme, .worksection2, .worksection3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .mainwork {
+    max-height: 150px;
+  }
+
+  /* Smartphones */
+  @media screen and (max-width:700px) {
+    
+
+    .aboutme {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .mainwork, .worksection2, .worksection3 {
@@ -304,7 +314,7 @@
     }
 
     .work1, .work2, .work3, .work4 {
-        min-width: 300px;
+        min-width: 500px;
         margin-bottom: 30px;
     }
 
@@ -312,5 +322,5 @@
         margin-right: 10px;
         margin-left: 10px;
     }
-    
+
   }
