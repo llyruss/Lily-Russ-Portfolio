@@ -16,6 +16,7 @@ This website displays my work, includes biographical information, and contact in
 ![an image displaying my projects](/Assets/images/Displayed_projects.png)
 ![and image displaying my contact information](/Assets/images/Contact_Information.png)
 
+View my deployed website [here](https://llyruss.github.io/Lily-Russ-Portfolio/).
 
 ## Credits
 
