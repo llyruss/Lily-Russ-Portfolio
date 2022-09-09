@@ -35,7 +35,7 @@
     background-color: lightpink;
   }
 
-  #footer li a:hover {
+  #footer a:hover {
     color: lightpink;
     background-color: navy;
   }
@@ -233,12 +233,12 @@
 
   #footer {
       display: flex;
+      flex-wrap: wrap;
       flex-grow: 1;
       align-items: center;
       justify-content: space-between;
       min-width: 300px;
       margin-right: 20px;
-      width: 500px;
 
   }
 
@@ -248,6 +248,7 @@
       text-decoration: none;
       padding-bottom: 2px;
       border-bottom: solid 2px navy;
+      margin-right: 3px;
   }
 
   /* Tablets */
@@ -295,7 +296,7 @@
 
   /* Smartphones */
   @media screen and (max-width:700px) {
-    
+
 
     .aboutme {
         margin-left: 10px;
@@ -304,7 +305,7 @@
 
     .mainwork, .worksection2, .worksection3 {
         margin-left: 10px;
-        max-height: 150px;
+        /* max-height: 150px; */
         flex-wrap: wrap;
 
     }
@@ -314,13 +315,13 @@
     }
 
     .work1, .work2, .work3, .work4 {
-        min-width: 500px;
+        min-width: 100%;
         margin-bottom: 30px;
     }
-
+/* 
     #footer {
         margin-right: 10px;
         margin-left: 10px;
-    }
+    } */
 
   }
