@@ -140,7 +140,8 @@
       flex-direction: row;
       background-image: url(./images/bagel1.jpeg);
       height: 350px;
-      width: 100%;
+      /* width: 100%; */
+      flex-grow: 1;
       background-size: cover;
       background-position: center;
       justify-content: flex-start;
@@ -257,6 +258,7 @@
         flex-direction: column;
     }
     header {
+        display: flex;
     flex-direction: column;
       text-align: center;
       width: 100%;
@@ -264,6 +266,11 @@
     h1 {
         width: 100%;
         padding: 0px;
+    }
+
+    nav {
+
+        padding-bottom: 15px;
     }
 
     .aboutme0, .contact {
@@ -285,14 +292,20 @@
         margin-bottom: 20px;
   }
 
-  .mainwork, .aboutme, .worksection2, .worksection3 {
+  .mainwork, .worksection1, .aboutme, .worksection2, .worksection3, #footer {
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .mainwork {
     max-height: 150px;
+
   }
+
+  .work2, .work4 {
+    margin-right: 0px;
+  }
+}
 
   /* Smartphones */
   @media screen and (max-width:700px) {
@@ -307,9 +320,11 @@
         margin-left: 10px;
         /* max-height: 150px; */
         flex-wrap: wrap;
-
     }
 
+    .worksection2 {
+        margin-bottom: 0px;
+    }
     .work1 .work2, .work3, .work4, .mainwork{
         margin-right: 10px;
     }
@@ -318,10 +333,4 @@
         min-width: 100%;
         margin-bottom: 30px;
     }
-/* 
-    #footer {
-        margin-right: 10px;
-        margin-left: 10px;
-    } */
-
-  }
+}
