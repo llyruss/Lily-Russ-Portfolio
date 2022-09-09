@@ -79,10 +79,12 @@
   .aboutme {
     display: flex;
     color:navy;
+    margin-right: 15px;
   }
 
   .aboutme0 {
     height: 150px;
+    padding-left: 15px;
   }
 
   p {
